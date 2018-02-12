@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<jnlp href="http://zed:7001/crm/static/notebook.jnlp">  
+    <information>  
+        <title>Worksheet Notebook</title>  
+        <vendor>ctpat</vendor>  
+        <homepage href="/home"/> 
+        <description>worksheet notepad</description>
+        <icon href="notebook-icon.jpg"/> 
+         <offline-allowed />
+    </information> 
+    <security>
+    	<all-permissions/>
+    </security> 
+    <resources> 
+        <java version="1.8+"/> 
+        <jar href="http://zed:7001/crm/static/notebook.jar"/>
+    </resources>  
+    <application-desc name="Worksheet Notebook" main-class="gov.dhs.cbp.ctpat.notebook.PaneGui"/>
+</jnlp>
