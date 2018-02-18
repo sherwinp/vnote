@@ -1,4 +1,4 @@
-package org.techlyric.controller;
+package org.techlyric.api;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

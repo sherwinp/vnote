@@ -18,7 +18,10 @@
 	</properties>
 
 	<modules>
-		<module>crm</module>
 		<module>datadb</module>
+		<module>crm-api</module>
+		<module>crm</module>
+		<module>crm-files</module>
+		<module>pub</module>
 	</modules>
 </project>

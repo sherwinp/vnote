@@ -8,7 +8,7 @@ import org.techlyric.model.ShortList;
 import org.techlyric.dto.MenuItem;
 
 @RepositoryDefinition(domainClass = ShortList.class, idClass = Long.class)
-public interface ShortListRepository {
+public interface ShortListFilesRepository {
 	@Query("SELECT new org.techlyric.dto.MenuItem( shrt.slabel, count(shrt.id) as itemCount )\n"
 			+"FROM ShortList shrt \n" 
 			+"LEFT OUTER JOIN shrt.linkItems itm \n" 

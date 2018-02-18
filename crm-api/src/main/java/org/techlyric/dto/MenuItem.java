@@ -1,4 +1,4 @@
-package org.techlyric.api;
+package org.techlyric.dto;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
